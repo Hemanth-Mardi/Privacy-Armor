@@ -1,9 +1,6 @@
-
 spec_version: "1"
-name: "Data-Privacy-Gym"
+name: "privacy-armor"
 version: "1.0.0"
-description: "A real-world environment for training AI agents to redact sensitive data."
 runtime: "python"
-app: "server.app:app"
+app: "app:app" # This must match your filename (app.py)
 port: 7860
-tags: ["openenv", "privacy", "nlp"]
